@@ -25,7 +25,7 @@ function App() {
 
 export default App;*/
 
-import React from 'react';
+ /*import React from 'react';
 import Cardsinfo from './Cardsinfo';
 import "./index.css";
 function App()
@@ -60,4 +60,20 @@ function App()
   link="https://en.wikipedia.org/wiki/Wings_of_Fire" />
 </>
 );}
+export default App;*/
+import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import firebase from './firebase';
+import Contacts from './Contacts';
+
+const App = () =>{
+  return(
+    <>
+     <div className="row">
+      <div className="col-md-8 offset-md-2">
+    <Contacts />
+    </div></div>
+    </>
+  );
+}
 export default App;
